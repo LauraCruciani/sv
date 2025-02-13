@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Esci con me? 🥹</title>
+    <title>Esci con me? </title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -78,11 +78,11 @@ button:nth-child(2) {
 </style>
 
     <div class="wrapper">
-      <h2 class="question">Esci con me a San Valentino?</h2>
+      <h2 class="question">16 febbraio: date per San Valentino?</h2>
       <img
         class="gif"
         alt="gif"
-        src="https://media.tenor.com/pE-DR_hXKMEAAAAM/hug-sully.giff"
+        src="https://media.tenor.com/XXpl59NmzLYAAAAM/otter-bored.gif"
       />
       <div class="btn-group">
         <button class="yes-btn">Si</button>
@@ -98,7 +98,7 @@ const [yesBtn, noBtn] = [".yes-btn", ".no-btn"].map(qs);
 
 const handleYesClick = () => {
   question.innerHTML = "Yeeeeeeeeeeeee!!";
-  gif.src = "https://64.media.tumblr.com/98f347f4962ec7a59e14cf80fc1ca61b/3c3692df71549885-b3/s540x810/4ffd96b95b045e26936b21d2039b38ebf323440d.gif";
+  gif.src = "https://media.tenor.com/EKlPRdcuoccAAAAM/otter-cute.gif";
 
   // Remove the 'mouseover' event listener from noBtn
   noBtn.removeEventListener("mouseover", handleNoMouseOver);
